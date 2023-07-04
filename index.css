@@ -1,0 +1,54 @@
+/* Write your code here. */
+.main-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.heading {
+  color: black;
+  margin-bottom: 20px;
+}
+img {
+  width: 13px;
+  height: 13px;
+}
+
+.notifications-main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.notifications-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 30px;
+  width: 80%;
+  height: 20px;
+  margin-bottom: 10px;
+}
+
+p {
+  margin-left: 8px;
+}
+
+.info-message {
+  background-color: blue;
+}
+
+.success-message {
+  background-color: green;
+}
+
+.warning-message {
+  background-color: yellow;
+}
+
+.error-message {
+  background-color: red;
+}
